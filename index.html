@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>起業ワークショップ #3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- ヒーローヘッダーセクション -->
+    <section class="hero-section">
+        <div class="hero-background" id="heroBackground"></div>
+        <div class="hero-content">
+            <h1 class="hero-title" id="heroTitle"></h1>
+            <p class="hero-subtitle">伝説の天才ハッカー 共感力の伝道師 氷の戦略家</p>
+            
+            <div class="countdown-container">
+                <div class="countdown-title">開催まであと</div>
+                <div class="countdown-timer">
+                    <div class="countdown-unit">
+                        <div class="countdown-number" id="days">00</div>
+                        <div class="countdown-label">日</div>
+                    </div>
+                    <div class="countdown-unit">
+                        <div class="countdown-number" id="hours">00</div>
+                        <div class="countdown-label">時間</div>
+                    </div>
+                    <div class="countdown-unit">
+                        <div class="countdown-number" id="minutes">00</div>
+                        <div class="countdown-label">分</div>
+                    </div>
+                    <div class="countdown-unit">
+                        <div class="countdown-number" id="seconds">00</div>
+                        <div class="countdown-label">秒</div>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="cta-button" onclick="scrollToRegistration()">今すぐ事前登録</button>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div>▼</div>
+            <div style="font-size: 0.9rem; margin-top: 5px;">スクロールして詳細を確認</div>
+        </div>
+    </section>
+
+    <!-- 事前登録セクション -->
+    <section class="registration-section" id="registration">
+        <div class="registration-background" id="registrationBackground"></div>
+        <div class="registration-content">
+            <div class="workshop-details">
+                <h2>ワークショップ詳細</h2>
+                
+                <div class="detail-item">
+                    <div class="detail-label">開催日時</div>
+                    <div class="detail-value">2025年8月15日（金）13:00 - 18:00</div>
+                </div>
+                
+                <div class="detail-item">
+                    <div class="detail-label">開催場所</div>
+                    <div class="detail-value">zoom<br>オンライン</div>
+                </div>
+                
+                <div class="detail-item">
+                    <div class="detail-label">参加費用</div>
+                    <div class="detail-value">無料<br>起業サークルメンバー</div>
+                </div>
+                
+                <div class="detail-item">
+                    <div class="detail-label">用意する物</div>
+                    <div class="detail-value">ノートPC、筆記用具</div>
+                </div>
+                
+                <div class="detail-item">
+                    <div class="detail-label">プログラム内容</div>
+                    <div class="detail-value">
+                        • ペルソナの作り方<br>
+                        • （社会）課題の設定<br>
+                        • ペルソナによる事業案<br>
+                        • 参加者とペルソナでセッション 事業案修正
+                    </div>
+                </div>
+                
+                <div class="detail-item">
+                    <div class="detail-label">注意事項</div>
+                    <div class="detail-value">
+                        • （先着順）<br>
+                        • 起業サークルメンバー限定です<br>
+                        • 飲み物を用意したほうが良いかも
+                    </div>
+                </div>
+            </div>
+            
+            <div class="registration-form">
+                <h2 class="form-title">事前登録フォーム</h2>
+                
+                <!-- Google Form埋め込み -->
+                <div class="google-form-container">
+                    <iframe 
+                        src="https://docs.google.com/forms/d/e/1FAIpQLSdezRfi8Qpllu7AWHQ049mbfldzBqVMy5oVXXzuM4oO7MT_Og/viewform?usp=preview" 
+                        width="100%" 
+                        height="600" 
+                        frameborder="0" 
+                        marginheight="0" 
+                        marginwidth="0">
+                        読み込んでいます…
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
